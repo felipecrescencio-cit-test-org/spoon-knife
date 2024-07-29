@@ -11,7 +11,10 @@ jobs:
   build:
     # bla 2
     # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    # runs-on: self-hosted
+    runs-on:
+      group: Default
+      labels: size-small
     steps:
       - name: build
         run: |
