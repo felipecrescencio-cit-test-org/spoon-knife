@@ -9,10 +9,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: build
         run: |
           echo 'Building...'
-          sleep 5
+          sleep 20
           echo 'Done'
