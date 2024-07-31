@@ -9,10 +9,15 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # bla 234567
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted
+    # runs-on:
+    #   group: Default
+    #   labels: size-small
     steps:
       - name: build
         run: |
           echo 'Building...'
-          sleep 5
+          sleep 90
           echo 'Done'
