@@ -19,5 +19,5 @@ jobs:
       - name: build
         run: |
           echo 'Building...'
-          sleep 60
+          sleep 90
           echo 'Done'
